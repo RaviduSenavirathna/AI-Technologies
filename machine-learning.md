@@ -10,6 +10,17 @@ Supervised learning algorithms are generally categorized into: 
 - **[[Classification]]:** predict using discrete labels or categories. 
 - **[[Regression]]:** predict using continuous numerical values.
 
+| Algorithm               | Type           | Method                                                                  | Purpose                                                           |     |
+| ----------------------- | -------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------- | --- |
+| [[Linear-Regression]]   | Regression     | Linear equation minimizing sum of squares of residuals                  | Predict continuous output values                                  |     |
+| [[Logistic-Regression]] | Classification | Logistic function transforming linear relationship                      | Predict binary output variable                                    |     |
+| Decision Trees          | Both           | Tree-like structure with decisions and outcomes                         | Model decisions and outcomes                                      |     |
+| Random Forests          | Both           | Combining multiple decision trees                                       | Improve classification and regression accuracy                    |     |
+| Support Vector Machine  | Both           | Maximizing margin between classes or predicting continuous values       | Create hyperplane for classification or predict continuous values |     |
+| K-Nearest Neighbors     | Both           | Finding k closest neighbors and predicting based on majority or average | Predict class or value based on k closest neighbors               |     |
+| Gradient Boosting       | Both           | Iteratively correcting errors with new models                           | Combine weak learners to create strong model                      |     |
+| Naive Bayes             | Classification | Bayes' theorem with feature independence assumption                     | Predict class based on feature independence assumption            |     |
+
 ## Unsupervised learning
 Unsupervised learning are again divided into ****three main categories**** based on their purpose: 
 - **Clustering:** group data points into clusters based on their similarities or differences.

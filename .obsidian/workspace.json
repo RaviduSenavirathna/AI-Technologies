@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "machine-learning.md",
+                "file": "ML/Classification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "machine-learning"
+              "title": "Classification"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "2dfcf271a7c88552",
   "lastOpenFiles": [
+    "ML/Logistic-Regression.md",
     "ML/Classification.md",
     "machine-learning.md",
     "history.md",
@@ -192,7 +193,6 @@
     "Assets/imgs/{60F4D921-037E-4624-8CEC-96E1F1A97206}.png",
     "ML/Linear-Regression.md",
     "Assets/imgs/{C6805EBB-016E-4BE5-8030-5BECCE679C5A}.png",
-    "ML/Logistic-Regression.md",
     "ML/models/linear-regression.ipynb",
     "ML/models",
     "New folder",

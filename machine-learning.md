@@ -23,7 +23,7 @@ Supervised learning algorithms are generally categorized into: 
 
 ## Unsupervised learning
 Unsupervised learning are again divided into ****three main categories**** based on their purpose: 
-- **Clustering:** group data points into clusters based on their similarities or differences.
+- **[[Clustering]]:** group data points into clusters based on their similarities or differences.
 - **Association Rule Mining:** simplify datasets by reducing the number of features while retaining the most important information.
 - **Dimensionality Reduction:** Find patterns between items in large datasets typically in market basket analysis.
 

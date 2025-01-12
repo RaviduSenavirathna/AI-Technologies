@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c787a42e40467848",
+        "id": "3d96aefe26fae59f",
         "type": "tabs",
         "children": [
           {
-            "id": "eda07edec4d7c2d2",
+            "id": "6b5f9ad0e84fa892",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Clustering.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Clustering"
+              "title": "New tab"
             }
           }
         ]
@@ -180,18 +176,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "eda07edec4d7c2d2",
+  "active": "6b5f9ad0e84fa892",
   "lastOpenFiles": [
-    "ML/Classification.md",
+    "ML/K-Means.md",
     "machine-learning.md",
+    "ML/Gradient-Boosting.md",
+    "ML/models/gradient-boosting.ipynb",
+    "README.md",
     "ML/Clustering.md",
+    "ML/models/logistic-regression.ipynb",
+    "ML/models/logistic-regression.ipunb",
+    "ML/models/k-means.ipynb",
+    "ML/Linear-Regression.md",
+    "ML/Logistic-Regression.md",
+    "ML/Classification.md",
     "Assets/imgs/{7F3A18ED-790C-48ED-8AC3-0C81C15456F3}.png",
     "ML/Regression.md",
-    "ML/Logistic-Regression.md",
-    "ML/Linear-Regression.md",
     "Assets/imgs/{60F4D921-037E-4624-8CEC-96E1F1A97206}.png",
     "sectors.md",
-    "README.md",
     "history.md",
     "Assets/imgs/{52D59381-AAFF-42F1-B33B-7287EFFC21E6}.png",
     "Assets/imgs/{C6805EBB-016E-4BE5-8030-5BECCE679C5A}.png",

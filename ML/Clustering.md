@@ -21,14 +21,14 @@ Clustering methods can be classified on the basis of how they form clusters.
 Centroid based clustering groups data points around central points called centroids. Each cluster is represented by the average of its points and data points are assigned to the nearest centroid.
 
 **Algorithms:
-- K-means: Iteratively assigns points to nearest centroid and recalculates centroids to minimize intra cluster variance.
+- **[[K-Means]]:** Iteratively assigns points to nearest centroid and recalculates centroids to minimize intra cluster variance.
 - K-medoids: Similar to K-means but uses actual data points (medoids) as centers, robust to outliers.
 
-| Advantages                            | Limitations                                     |     |
-| ------------------------------------- | ----------------------------------------------- | --- |
-| Fast and scalable for large datasets. | Requires choosing number of clusters in advance |     |
-| Simple to implement and interpret.    | Sensitive to initialization and outliers.       |     |
-|                                       | Not suitable for non spherical clusters.        |     |
+| Advantages                            | Limitations                                     |
+| ------------------------------------- | ----------------------------------------------- |
+| Fast and scalable for large datasets. | Requires choosing number of clusters in advance |
+| Simple to implement and interpret.    | Sensitive to initialization and outliers.       |
+|                                       | Not suitable for non spherical clusters.        |
 
 ##### 2. Density based Clustering
 Density based clustering identifies clusters as regions where data points are densely packed together. Points in low density areas are treated as noise.
@@ -55,7 +55,6 @@ Connectivity based or Hierarchical clustering builds clusters by gradually mergi
 | Provides a full hierarchy, easy to visualize  | Computationally intensive for large datasets |
 | No need to specify number of clusters upfront | Merging/splitting decisions are irreversible |
 |                                               | Choosing parameters can be difficult         |
-|                                               |                                              |
 
 ##### 4. Distribution-based Clustering
 

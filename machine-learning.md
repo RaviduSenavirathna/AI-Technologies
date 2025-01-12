@@ -18,7 +18,7 @@ Supervised learning algorithms are generally categorized into: 
 | Random Forests          | Both           | Combining multiple decision trees                                       | Improve classification and regression accuracy                    |     |
 | Support Vector Machine  | Both           | Maximizing margin between classes or predicting continuous values       | Create hyperplane for classification or predict continuous values |     |
 | K-Nearest Neighbors     | Both           | Finding k closest neighbors and predicting based on majority or average | Predict class or value based on k closest neighbors               |     |
-| Gradient Boosting       | Both           | Iteratively correcting errors with new models                           | Combine weak learners to create strong model                      |     |
+| [[Gradient-Boosting]]   | Both           | Iteratively correcting errors with new models                           | Combine weak learners to create strong model                      |     |
 | Naive Bayes             | Classification | Bayes' theorem with feature independence assumption                     | Predict class based on feature independence assumption            |     |
 
 ## Unsupervised learning

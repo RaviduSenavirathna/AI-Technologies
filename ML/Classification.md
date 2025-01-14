@@ -31,9 +31,9 @@ Now, for implementation of any classification model it is essential to understan
 - [K-Nearest Neighbours](https://www.geeksforgeeks.org/machine-learning/k-nearest-neighbours/)
 - [Kernel SVM](https://www.geeksforgeeks.org/machine-learning/major-kernel-functions-in-support-vector-machine-svm/)
 - [Naive Bayes](https://www.geeksforgeeks.org/machine-learning/naive-bayes-classifiers/)
-- [Decision Tree Classification](https://www.geeksforgeeks.org/machine-learning/decision-tree/)
+- [[Decision-Trees]]
 - [Ensemble learning classifiers:](https://www.geeksforgeeks.org/machine-learning/ensemble-classifier-data-mining/) 
-- [Random Forests,](https://www.geeksforgeeks.org/dsa/random-forest-classifier-using-scikit-learn/) 
+- [[Random-Forest]]
 - [AdaBoost,](https://www.geeksforgeeks.org/machine-learning/implementing-the-adaboost-algorithm-from-scratch/) 
 - [Bagging Classifier,](https://www.geeksforgeeks.org/machine-learning/What-is-Bagging-classifier/) 
 - [Voting Classifier,](https://www.geeksforgeeks.org/machine-learning/ml-voting-classifier-using-sklearn/) 

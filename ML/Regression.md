@@ -4,3 +4,12 @@ Regression in machine learning is a supervised learning technique used to predic
 - Helps to identify strengths and the type of relationships
 - Supports both simple and complex predictive models.
 - Used for tasks like price prediction, trend forecasting and risk scoring.
+
+
+## Types of Regression
+Regression can be classified into different types based on the number of predictor variables and the nature of the relationship between variables:
+* [[Linear-Regression]]
+* Polynomial Regression
+* [[Support-Vector-Regression]]
+* Decision Tree Regression
+* Random Forest Regression

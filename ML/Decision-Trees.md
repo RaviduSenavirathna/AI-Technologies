@@ -11,5 +11,6 @@ IG~ = ~E(parent) - ~∑ ~w_{i} ~~E(~child_{i}~)
 $$
 - Information Gain measures **how much a split improves purity**.
 
-### Classification
+
+
 Splits data step-by-step using different features to make a classification decision. During training, the model checks every possible feature and every possible split value to find the best way to divide the data.  A pure leaf node is a final node where all data points belong to the same class. In real-world data, perfectly pure leaf nodes are rare, so many leaf nodes contain a mix of classes. When a leaf node has mixed classes, the model uses majority voting.

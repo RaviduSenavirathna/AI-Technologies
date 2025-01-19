@@ -4,6 +4,8 @@ Random Forest is an ensemble learning method that builds **multiple decision tre
 - Each tree makes a prediction, and the final output is decided by **majority voting**
 
 
+
+
 Step 1: Bootstrapping
 Choose random subsets of the original dataset with replacement so that 	the total number of  rows in the selected subset is the same as the original 	dataset
 
@@ -15,3 +17,4 @@ Train one tree for each selected dataset and set of features.
 
 Step4: 
 For new unseen data, make predictions using the majority voting.
+

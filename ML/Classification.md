@@ -23,19 +23,13 @@ Now, for implementation of any classification model it is essential to understan
 
 1. **Linear Classifiers:** Linear classifier models create a linear decision boundary between classes. They are simple and computationally efficient. Some of the linear classification models are as follows: 
 - [[Logistic-Regression]]
-- [Support Vector Machines having kernel = 'linear'](https://www.geeksforgeeks.org/machine-learning/support-vector-machine-algorithm/)
-- [Single-layer Perceptron](https://www.geeksforgeeks.org/python/single-layer-perceptron-in-tensorflow/)
-- [Stochastic Gradient Descent (SGD) Classifier](https://www.geeksforgeeks.org/python/stochastic-gradient-descent-classifier/)
+- Support Vector Classifier
+- Single-layer Perceptron
 
 1. **Non-linear Classifiers:** Non-linear models create a non-linear decision boundary between classes. They can capture more complex relationships between input features and target variable. Some of the non-linear classification models are as follows:
-- [K-Nearest Neighbours](https://www.geeksforgeeks.org/machine-learning/k-nearest-neighbours/)
-- [Kernel SVM](https://www.geeksforgeeks.org/machine-learning/major-kernel-functions-in-support-vector-machine-svm/)
-- [Naive Bayes](https://www.geeksforgeeks.org/machine-learning/naive-bayes-classifiers/)
+- K-Nearest Neighbors
+- Kernel SVM
+- Naive Bayes
 - [[Decision-Trees]]
-- [Ensemble learning classifiers:](https://www.geeksforgeeks.org/machine-learning/ensemble-classifier-data-mining/) 
 - [[Random-Forest]]
-- [AdaBoost,](https://www.geeksforgeeks.org/machine-learning/implementing-the-adaboost-algorithm-from-scratch/) 
-- [Bagging Classifier,](https://www.geeksforgeeks.org/machine-learning/What-is-Bagging-classifier/) 
-- [Voting Classifier,](https://www.geeksforgeeks.org/machine-learning/ml-voting-classifier-using-sklearn/) 
-- [Extra Trees Classifier](https://www.geeksforgeeks.org/machine-learning/ml-extra-tree-classifier-for-feature-selection/)
-- [Multi-layer Artificial Neural Networks](https://www.geeksforgeeks.org/deep-learning/multi-layer-perceptron-learning-in-tensorflow/)
+- AdaBoost

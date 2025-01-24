@@ -12,15 +12,6 @@ $$
 - **m** is the slope of the line (how much y changes when x changes)
 - **b** is the intercept (the value of y when x = 0)
 
-
-
-$$
-SSE = \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
-$$
-$$
-MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
-$$
-
 | **Advantages**                                                                     | **Disadvantages**                                  |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------- |
 | Simple and easy to implement with interpretable coefficients.                      | Assumes a linear relationship between variables.   |
@@ -28,3 +19,11 @@ $$
 | Relatively robust to outliers.                                                     | Requires proper feature engineering.               |
 | Serves as a good baseline model.                                                   | Can overfit or underfit depending on data.         |
 | Widely available in ML libraries and software.                                     | Limited for modeling complex relationships.        |
+
+
+### Evaluation Metrics
+A variety of evaluation measures can be used to determine the strength of any linear regression model. These assessment metrics often give an indication of how well the model is producing the observed outputs.
+
+- [[Root-Mean-Square-Error]]
+- [[Mean-Squared-Error]]
+- [[Mean-Absolute-Error]].

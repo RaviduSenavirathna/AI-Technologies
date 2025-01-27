@@ -27,7 +27,7 @@ Now, for implementation of any classification model it is essential to understan
 - Single-layer Perceptron
 
 1. **Non-linear Classifiers:** Non-linear models create a non-linear decision boundary between classes. They can capture more complex relationships between input features and target variable. Some of the non-linear classification models are as follows:
-- K-Nearest Neighbors
+- [[K-Nearest-Neighbors]]
 - Kernel SVM
 - Naive Bayes
 - [[Decision-Trees]]

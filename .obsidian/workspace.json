@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "f9a8685319419415",
+            "id": "99e3349b2d256e52",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -193,10 +193,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "f9a8685319419415",
+  "active": "99e3349b2d256e52",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Assets/imgs/{6AA2514C-244E-4E16-95B7-586BCF62DEEF}.png",
     "deep-learning.md",
+    "Assets/imgs/main-diagram.png",
+    "Assets/imgs/{C6805EBB-016E-4BE5-8030-5BECCE679C5A}.png",
+    "Untitled.md",
     "Machine-Learning/K-Nearest-Neighbors.md",
     "Machine-Learning/Classification.md",
     "Machine-Learning/Supervised-Learning.md",
@@ -226,7 +229,6 @@
     "Evaluvation",
     "Machine-Learning/Reinforcement-Learning.md",
     "Machine-Learning/Clustering.md",
-    "Machine-Learning/Unsupervised-Learning.md",
     "Machine-Learning/models/gradient-boosting.ipynb",
     "Machine-Learning/models/logistic-regression.ipynb",
     "ML/models/logistic-regression.ipunb",
@@ -234,10 +236,8 @@
     "Assets/imgs/{7F3A18ED-790C-48ED-8AC3-0C81C15456F3}.png",
     "Assets/imgs/{60F4D921-037E-4624-8CEC-96E1F1A97206}.png",
     "Assets/imgs/{52D59381-AAFF-42F1-B33B-7287EFFC21E6}.png",
-    "Assets/imgs/{C6805EBB-016E-4BE5-8030-5BECCE679C5A}.png",
     "Machine-Learning/models/linear-regression.ipynb",
     "Machine-Learning/models",
-    "Assets/imgs/main-diagram.png",
     "{F32543E9-1234-4F15-93ED-06714E5E9B3A}.png",
     "Assets/imgs/Gemini_Generated_Image_1o2gve1o2gve1o2g.png"
   ]

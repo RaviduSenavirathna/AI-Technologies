@@ -22,3 +22,14 @@ Machine learning and Deep Learning both are subsets of artificial intelligence b
 | Interpretability     | Easy to understand and explain                             | Hard to interpret (black box)                               |
 | Hardware Requirement | Can run on CPU, needs less computing power                 | Needs GPU and high-performance systems                      |
 | Use Cases            | Spam detection, recommendation systems                     | Image recognition, NLP, speech recognition                  |
+
+### Advantages
+- Deep learning algorithms can achieve very high accuracy in tasks like image recognition and natural language processing.
+- They can automatically learn important features from data without the need for manual feature engineering.
+- These models can scale well to handle large and complex datasets, learning from massive amounts of data.
+- They are flexible and can be applied to a wide range of tasks involving different types of data such as images, text and speech.
+### Disadvantages
+- Deep learning requires large amounts of data for effective training, which can be difficult to collect.
+- Training these models is computationally expensive and often requires specialized hardware like GPUs and TPUs.
+- The models are complex and behave like a black box, making their results difficult to interpret.
+- If trained excessively on the same data, they can become too specialized, leading to overfitting and poor performance on new data.

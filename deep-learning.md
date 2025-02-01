@@ -3,7 +3,7 @@ Deep Learning is transforming the way machines understand, learn and interact wi
 ![[{6AA2514C-244E-4E16-95B7-586BCF62DEEF}.png | center |407]]
 
 #### How Deep Learning Works?
-Neural network consists of layers of interconnected nodes or neurons that collaborate to process input data. In a fully connected deep neural network data flows through multiple layers where each neuron performs nonlinear transformations, allowing the model to learn intricate representations of the data.
+[[Neural-Network]] consists of layers of interconnected nodes or neurons that collaborate to process input data. In a fully connected deep neural network data flows through multiple layers where each neuron performs nonlinear transformations, allowing the model to learn intricate representations of the data.
 
 In a deep neural network the input layer receives data which passes through hidden layers that transform the data using nonlinear functions. The final output layer generates the model’s prediction.
 

@@ -53,16 +53,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep-Learning/Artificial-Neural-Network.md",
+                "file": "Algorithms/Forward-Propagation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Artificial-Neural-Network"
+              "title": "Forward-Propagation"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -221,16 +221,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "467a2e9e081cdb2b",
+  "active": "b68e351bb629b069",
   "lastOpenFiles": [
+    "Deep-Learning/Neural-Network.md",
+    "Algorithms/Forward-Propagation.md",
+    "Untitled.md",
+    "Deep-Learning/Artificial-Neural-Network.md",
+    "Algorithms/Gradient-Descent.md",
     "Assets/imgs/{E28D8172-6739-48F0-AF68-23B340A7825F}.png",
     "deep-learning.md",
-    "Deep-Learning/Neural-Network.md",
-    "Deep-Learning/Artificial-Neural-Network.md",
     "Assets/imgs/{6AA2514C-244E-4E16-95B7-586BCF62DEEF}.png",
     "Assets/imgs/main-diagram.png",
     "Assets/imgs/{C6805EBB-016E-4BE5-8030-5BECCE679C5A}.png",
-    "Untitled.md",
     "Machine-Learning/K-Nearest-Neighbors.md",
     "Machine-Learning/Classification.md",
     "Machine-Learning/Supervised-Learning.md",
@@ -239,7 +241,6 @@
     "README.md",
     "sectors.md",
     "history.md",
-    "Algorithms/Gradient-Descent.md",
     "Assets/imgs/{9CE0487A-F7D1-47E1-A6F8-2932B6735B10}.png",
     "Evaluvation/Root-Mean-Square-Error.md",
     "Evaluvation/Mean-Squared-Error.md",

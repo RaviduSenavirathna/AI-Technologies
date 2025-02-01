@@ -1,4 +1,5 @@
 Forward propagation in neural networks is the process where input data flows through each layer of the model to generate an output. It’s the step-by-step computation that transforms raw inputs into predictions using weights, biases and activation functions. This operation forms the backbone of how neural networks learn patterns and make decisions.
+
 ![[{894CA55F-53AC-4C5E-A876-7D9136F96BA0}.png | center | 485]]
 
 - It computes intermediate values layer by layer, starting from the input layer and ending at the output layer.

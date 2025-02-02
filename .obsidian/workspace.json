@@ -20,18 +20,35 @@
             }
           },
           {
-            "id": "21d25f87986d0cae",
+            "id": "f9db30322c31b897",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Assets/imgs/{BC81F79D-49D4-4054-9345-084737A22BDC}.png"
+                "file": "deep-learning.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "{BC81F79D-49D4-4054-9345-084737A22BDC}"
+              "icon": "lucide-file",
+              "title": "deep-learning"
+            }
+          },
+          {
+            "id": "651551e43dca12ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Activation-Functions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Activation-Functions"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -190,16 +207,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "aaada7dfce0d8e9c",
+  "active": "651551e43dca12ba",
   "lastOpenFiles": [
+    "{5A1B8373-46F5-45F4-B8AD-53D918321EE1}.png",
+    "Deep-Learning/Artificial-Neural-Network.md",
+    "Algorithms/Activation-Functions.md",
+    "deep-learning.md",
+    "Deep-Learning/Neural-Network.md",
     "Assets/imgs/{BC81F79D-49D4-4054-9345-084737A22BDC}.png",
     "Assets/imgs/{1E25C733-AE26-4F5E-B6C9-4A2628E20535}.png",
     "Algorithms/Backward-Propagation.md",
     "Algorithms/Forward-Propagation.md",
-    "deep-learning.md",
-    "Deep-Learning/Artificial-Neural-Network.md",
     "Assets/imgs/{894CA55F-53AC-4C5E-A876-7D9136F96BA0}.png",
-    "Deep-Learning/Neural-Network.md",
     "Algorithms/Gradient-Descent.md",
     "Untitled.md",
     "Assets/imgs/{E28D8172-6739-48F0-AF68-23B340A7825F}.png",
@@ -227,7 +246,6 @@
     "Machine-Learning/Gradient-Boosting.md",
     "Machine-Learning/Linear-Regression.md",
     "Machine-Learning/Regression.md",
-    "Sub-Models/decision-tree-classification.md",
     "Sub-Models",
     "Evaluvation",
     "Machine-Learning/models/gradient-boosting.ipynb",

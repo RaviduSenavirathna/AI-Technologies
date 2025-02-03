@@ -30,3 +30,15 @@ $$
 $final~output=σ(h_{1}.w_{5}+h_{2}.w_{6}+bias)$
 
 This gives the final output of the network after applying the sigmoid activation function in output layers, introducing the desired non-linearity.
+
+## Types of Activation Functions in Deep Learning
+
+### Linear Activation Function
+Linear Activation Function resembles straight line define by y=x. No matter how many layers the neural network contains if they all use linear activation functions the output is a linear combination of the input.
+- The range of the output spans from (−∞ to +∞)(−∞ to +∞).
+- Linear activation function is used at just one place i.e. output layer.
+- Using linear activation across all layers makes the network's ability to learn complex patterns limited.
+
+Linear activation functions are useful for specific tasks but must be combined with non-linear functions to enhance the neural network’s learning and predictive capabilities.
+
+

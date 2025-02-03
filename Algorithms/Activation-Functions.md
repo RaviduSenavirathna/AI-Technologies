@@ -41,4 +41,57 @@ Linear Activation Function resembles straight line define by y=x. No matter how 
 
 Linear activation functions are useful for specific tasks but must be combined with non-linear functions to enhance the neural network’s learning and predictive capabilities.
 
+### Non-Linear Activation Functions
+**Sigmoid Function**
+Sigmoid activation function is characterized by 'S' shape. It is mathematically defined as
+$$ A = \frac{1}{1+e^{-x}}$$
+This formula ensures a smooth and continuous output that is essential for gradient-based optimization methods.
+
+- It allows neural networks to handle and model complex patterns that linear equations cannot.
+- The output ranges between 0 and 1, hence useful for binary classification.
+- The function exhibits a steep gradient when x values are between -2 and 2. This sensitivity means that small changes in input x can cause significant changes in output y which is critical during the training process.
+
+
+**Tanh Activation Function**
+Tanh function (hyperbolic tangent function) is a shifted version of the sigmoid, allowing it to stretch across the y-axis. It is defined as:
+$$
+f(x)=tanh⁡(x)=\frac{2}{1+e^{-2x}}-1
+$$
+Alternatively, it can be expressed using the sigmoid function:
+$$
+tanh⁡(x)=2×sigmoid(2x)−1
+$$
+- Value Range: Outputs values from -1 to +1.
+- Non-linear: Enables modeling of complex data patterns.
+- Use in Hidden Layers: Commonly used in hidden layers due to its zero-centered output, facilitating easier learning for subsequent layers.
+
+
+**ReLU (Rectified Linear Unit) Function**
+ReLU activation is defined by $A(x)=max⁡(0,x)$, this means that if the input x is positive, ReLU returns x, if the input is negative, it returns 0.
+
+- Value Range: (0,∞), meaning the function only outputs non-negative values.
+- Nature: It is a non-linear activation function, allowing neural networks to learn complex patterns and making backpropagation more efficient.
+- Advantage over other Activation: ReLU is less computationally expensive than tanh and sigmoid because it involves simpler mathematical operations. At a time only a few neurons are activated making the network sparse making it efficient and easy for computation.
+
+
+**Leaky ReLU**
+$$
+f(x) = \begin{cases} x, & x > 0 \\ \alpha x, & x \le 0 \end{cases}​
+$$
+- Leaky ReLU is similar to ReLU but allows a small negative slope (αα, e.g., 0.01) instead of zero.
+- Solves the “dying ReLU” problem, where neurons get stuck with zero outputs.
+- Range: (−∞,∞)(−∞,∞).
+- Preferred in some cases for better gradient flow.
+
+
+**SoftPlus Function**
+Softplus function is defined mathematically as: 
+$$
+A(x)=log⁡(1+e^x)
+$$
+This equation ensures that the output is always positive and differentiable at all points which is an advantage over the traditional ReLU function.
+
+- Nature: The Softplus function is non-linear.
+- Range: The function outputs values in the range (0,∞)(0,∞), similar to ReLU, but without the hard zero threshold that ReLU has.
+- Smoothness: Softplus is a smooth, continuous function, meaning it avoids the sharp discontinuities of ReLU which can sometimes lead to problems during optimization.
 

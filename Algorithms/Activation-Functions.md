@@ -41,6 +41,8 @@ Linear Activation Function resembles straight line define by y=x. No matter how 
 
 Linear activation functions are useful for specific tasks but must be combined with non-linear functions to enhance the neural network’s learning and predictive capabilities.
 
+![[{7C19B896-C19E-4008-9241-B95FD18B0B74}.png | center|450]]
+
 ### Non-Linear Activation Functions
 **Sigmoid Function**
 Sigmoid activation function is characterized by 'S' shape. It is mathematically defined as
@@ -50,6 +52,8 @@ This formula ensures a smooth and continuous output that is essential for gradie
 - It allows neural networks to handle and model complex patterns that linear equations cannot.
 - The output ranges between 0 and 1, hence useful for binary classification.
 - The function exhibits a steep gradient when x values are between -2 and 2. This sensitivity means that small changes in input x can cause significant changes in output y which is critical during the training process.
+
+![[{589B5AF3-4EE7-4EEE-9913-91185F6BCEA5}.png | center|450]]
 
 
 **Tanh Activation Function**
@@ -65,6 +69,8 @@ $$
 - Non-linear: Enables modeling of complex data patterns.
 - Use in Hidden Layers: Commonly used in hidden layers due to its zero-centered output, facilitating easier learning for subsequent layers.
 
+![[{1E7F9B92-F869-4A95-B4B7-EDFF0BA453AC}.png | center|450]]
+
 
 **ReLU (Rectified Linear Unit) Function**
 ReLU activation is defined by $A(x)=max⁡(0,x)$, this means that if the input x is positive, ReLU returns x, if the input is negative, it returns 0.
@@ -72,6 +78,8 @@ ReLU activation is defined by $A(x)=max⁡(0,x)$, this means that if the input
 - Value Range: (0,∞), meaning the function only outputs non-negative values.
 - Nature: It is a non-linear activation function, allowing neural networks to learn complex patterns and making backpropagation more efficient.
 - Advantage over other Activation: ReLU is less computationally expensive than tanh and sigmoid because it involves simpler mathematical operations. At a time only a few neurons are activated making the network sparse making it efficient and easy for computation.
+
+![[{69547801-051E-452E-92A0-553EB757593C}.png | center|450]]
 
 
 **Leaky ReLU**
@@ -82,6 +90,8 @@ $$
 - Solves the “dying ReLU” problem, where neurons get stuck with zero outputs.
 - Range: (−∞,∞)(−∞,∞).
 - Preferred in some cases for better gradient flow.
+
+![[{DD702FBC-0CC1-4759-95D8-9A79F7B60090}.png | center | 450]]
 
 
 **SoftPlus Function**
@@ -95,6 +105,8 @@ This equation ensures that the output is always positive and differentiable at a
 - Range: The function outputs values in the range (0,∞)(0,∞), similar to ReLU, but without the hard zero threshold that ReLU has.
 - Smoothness: Softplus is a smooth, continuous function, meaning it avoids the sharp discontinuities of ReLU which can sometimes lead to problems during optimization.
 
+![[{BE9EB3B9-88F0-4BDD-A181-FD2DACF55A74}.png | center | 450]]
+
 ### Exponential Linear Units
 **ELU (Exponential Linear Unit) Function**
 ELU (Exponential Linear Unit) is a non-linear activation function designed to improve learning speed and reduce the vanishing gradient problem. It behaves like ReLU for positive inputs but allows smooth negative values instead of zero, which helps the network learn more balanced representations.
@@ -105,6 +117,8 @@ $$
 - Non-linear: Helps neural networks model complex patterns
 - Negative Outputs: Unlike ReLU, ELU allows negative values, making outputs closer to zero mean
 - Smooth Curve: Continuous and differentiable, helping stable training
+
+![[{2A1A1522-748A-4F30-84B9-1C1A98B8D650}.png | center | 450]]
 
 
 **SELU (Scaled Exponential Linear Unit) Function**
@@ -120,6 +134,8 @@ where λ ≈ 1.05 (scaling factor) and α ≈ 1.67
 - Works Best With: Deep fully connected networks using proper initialization and dropout variants.
 - Reduces Need for Batch Normalization in some architectures.
 
+![[{57B51256-B17A-41E4-8765-3E1FC338F702}.png | center | 450]]
+
 ### Output Layer Activation Functions
 **Sigmoid Activation Function**
 Sigmoid function produces an S-shaped curve and maps input values into a probability-like range between 0 and 1 and is used to find the final output of the neural network for binary classification problems. It is defined as:
@@ -131,6 +147,8 @@ $$
 - Best for: Binary classification output layers.
 - Interpretable Output: Can be treated as probability.
 - Limitation: Suffers from vanishing gradient for very large or very small inputs.
+
+![[{589B5AF3-4EE7-4EEE-9913-91185F6BCEA5}.png | center | 450]]
 
 
 **Softmax Function**

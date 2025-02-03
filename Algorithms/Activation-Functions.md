@@ -119,3 +119,22 @@ where λ ≈ 1.05 (scaling factor) and α ≈ 1.67
 - Improves Gradient Flow: Helps prevent exploding or vanishing gradients.
 - Works Best With: Deep fully connected networks using proper initialization and dropout variants.
 - Reduces Need for Batch Normalization in some architectures.
+
+### Output Layer Activation Functions
+**Sigmoid Activation Function**
+Sigmoid function produces an S-shaped curve and maps input values into a probability-like range between 0 and 1 and is used to find the final output of the neural network for binary classification problems. It is defined as:
+$$
+σ(x)= \frac{1}{1+e^{-x}}​
+$$
+- Value Range: (0,1)(0,1)(0,1)
+- Smooth and Differentiable: Useful for gradient-based optimization.
+- Best for: Binary classification output layers.
+- Interpretable Output: Can be treated as probability.
+- Limitation: Suffers from vanishing gradient for very large or very small inputs.
+
+
+**Softmax Function**
+Softmax function is designed to handle multi-class classification problems. It transforms raw output scores from a neural network into probabilities. It works by squashing the output values of each class into the range of 0 to 1 while ensuring that the sum of all probabilities equals 1.
+
+- Softmax is a non-linear activation function.
+- The Softmax function ensures that each class is assigned a probability, helping to identify which class the input belongs to.

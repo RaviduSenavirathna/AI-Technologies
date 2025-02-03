@@ -95,3 +95,27 @@ This equation ensures that the output is always positive and differentiable at a
 - Range: The function outputs values in the range (0,∞)(0,∞), similar to ReLU, but without the hard zero threshold that ReLU has.
 - Smoothness: Softplus is a smooth, continuous function, meaning it avoids the sharp discontinuities of ReLU which can sometimes lead to problems during optimization.
 
+### Exponential Linear Units
+**ELU (Exponential Linear Unit) Function**
+ELU (Exponential Linear Unit) is a non-linear activation function designed to improve learning speed and reduce the vanishing gradient problem. It behaves like ReLU for positive inputs but allows smooth negative values instead of zero, which helps the network learn more balanced representations.
+$$
+f(x) = \begin{cases} x, & x > 0 \\ \alpha(e^x - 1), & x \le 0 \end{cases}​
+$$
+- Value Range: (−α,∞)(-\alpha, \infty)(−α,∞)
+- Non-linear: Helps neural networks model complex patterns
+- Negative Outputs: Unlike ReLU, ELU allows negative values, making outputs closer to zero mean
+- Smooth Curve: Continuous and differentiable, helping stable training
+
+
+**SELU (Scaled Exponential Linear Unit) Function**
+SELU is a scaled version of ELU designed for self-normalizing neural networks. It automatically keeps neuron outputs close to zero mean and unit variance, which stabilizes training. It is defined as:
+$$
+f(x) = \lambda \begin{cases} x, & x > 0 \\ \alpha(e^x - 1), & x \le 0 \end{cases}
+$$
+where λ ≈ 1.05 (scaling factor) and α ≈ 1.67
+
+- Value Range: (−λα,∞)(−λα,∞)
+- Self-Normalizing: Keeps activations stable across layers.
+- Improves Gradient Flow: Helps prevent exploding or vanishing gradients.
+- Works Best With: Deep fully connected networks using proper initialization and dropout variants.
+- Reduces Need for Batch Normalization in some architectures.

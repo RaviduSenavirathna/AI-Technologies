@@ -62,3 +62,13 @@ Isomap: Captures global data structure by preserving distances along a manifold.
 - **Recommendation Systems:** Suggests products, movies or music by analyzing user behavior and preferences.
 - **Image and Text Clustering:** Groups similar images or documents for tasks like organization and content recommendation.
 - **Social Network Analysis:** Detects communities or trends in user interactions on social media platforms.
+# Advantages
+- Works with raw, unlabeled data, saving time and effort required for data annotation.
+- Finds hidden patterns and natural groupings in data that may not be easily identified by humans.
+- Handles large and complex datasets efficiently, including high-dimensional data.
+- Helps detect anomalies and unusual data points without needing prior examples.
+# Disadvantages
+- Noisy data and outliers can distort patterns and reduce the effectiveness of the model.
+- Models may capture noise instead of meaningful patterns, leading to overfitting.
+- Lack of labeled data makes it difficult to guide the algorithm toward specific outcomes.
+- Results such as clusters may be difficult to interpret or may not clearly match real-world categories.

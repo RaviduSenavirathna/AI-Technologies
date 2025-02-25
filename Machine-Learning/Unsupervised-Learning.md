@@ -41,3 +41,15 @@ FP-Growth Algorithm: An Efficient Alternative to Apriori. It quickly identifies 
 Eclat Algorithm: Uses intersections of itemsets to efficiently find frequent patterns.
 Efficient Tree-based Algorithms: Scales to handle large datasets by organizing data in tree structures.
 
+## Dimensionality Reduction
+Dimensionality reduction is the process of decreasing the number of features or variables in a dataset while retaining as much of the original information as possible. This technique helps simplify complex data making it easier to analyze and visualize. It also improves the efficiency and performance of machine learning algorithms by reducing noise and computational cost.
+
+- It reduces the dataset’s feature space from many dimensions to fewer, more meaningful ones.
+- Helps focus on the most important traits or patterns in the data.
+- Commonly used to improve model speed and reduce overfitting.
+
+**Here are some popular Dimensionality Reduction algorithms:**
+Principal Component Analysis (PCA): Reduces dimensions by transforming data into uncorrelated principal components.
+Non-negative Matrix Factorization (NMF): Breaks data into non-negative parts to simplify representation.
+Locally Linear Embedding (LLE): Reduces dimensions while preserving the relationships between nearby points.
+Isomap: Captures global data structure by preserving distances along a manifold.

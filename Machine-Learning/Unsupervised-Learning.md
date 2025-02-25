@@ -26,3 +26,18 @@ Hierarchical : Creates clusters by building a tree step-by-step, either merging 
 [[DBSCAN]] : Finds clusters in dense areas and treats scattered points as noise.
 Mean-Shift : Discovers clusters by moving points toward the most crowded areas.
 Spectral Clustering: Groups data by analyzing connections between points using graphs.
+
+
+## Association Rule Learning
+Association rule learning is a rule-based unsupervised learning technique used to discover interesting relationships between variables in large datasets. It identifies patterns in the form of “if-then” rules, showing how the presence of some items in the data implies the presence of others.
+
+- Finds frequent item combinations and the rules connecting them.
+- Commonly used in market basket analysis to understand product purchase relationships.
+- Helps retailers design promotions and cross-selling strategies.
+
+**Some common Association Rule Learning algorithms:** 
+Apriori Algorithm: Finds patterns by exploring frequent item combinations step-by-step.
+FP-Growth Algorithm: An Efficient Alternative to Apriori. It quickly identifies frequent patterns without generating candidate sets.
+Eclat Algorithm: Uses intersections of itemsets to efficiently find frequent patterns.
+Efficient Tree-based Algorithms: Scales to handle large datasets by organizing data in tree structures.
+

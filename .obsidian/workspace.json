@@ -178,8 +178,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "f2569dbd3f7cfa4c",
+  "active": "aaada7dfce0d8e9c",
   "lastOpenFiles": [
+    "Machine-Learning/Classification.md",
     "Notebooks/machine-learning-nb/knn.ipynb",
     "Machine-Learning/models/DBSCAN.md",
     "Machine-Learning/Unsupervised-Learning.md",
@@ -200,9 +201,7 @@
     "Notebooks/deep-learning-nb/data",
     "Notebooks/deep-learning-nb/Artficial-Neural-Networks.ipynb",
     "Notebooks/deep-learning-nb",
-    "Notebooks/machine-learning-nb/deep-learning-nb/data/weight-height.csv",
     "Algorithms/Activation-Functions.md",
-    "Machine-Learning/Classification.md",
     "Machine-Learning/Reinforcement-Learning.md",
     "Machine-Learning/models/Linear-Regression.md",
     "Algorithms/Sigmoid.md",

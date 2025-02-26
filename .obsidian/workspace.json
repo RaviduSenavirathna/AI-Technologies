@@ -178,8 +178,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "aaada7dfce0d8e9c",
+  "active": "f2569dbd3f7cfa4c",
   "lastOpenFiles": [
+    "Notebooks/machine-learning-nb/knn.ipynb",
     "Machine-Learning/models/DBSCAN.md",
     "Machine-Learning/Unsupervised-Learning.md",
     "Machine-Learning/models/K-Means.md",
@@ -224,7 +225,6 @@
     "Assets/imgs/{69547801-051E-452E-92A0-553EB757593C}.png",
     "Assets/imgs/{8FC50A12-1BDF-4D3F-B3FC-40C19C575249}.png",
     "Assets/imgs/{5A1B8373-46F5-45F4-B8AD-53D918321EE1}.png",
-    "Machine-Learning/models/K-Nearest-Neighbors.md",
-    "README.md"
+    "Machine-Learning/models/K-Nearest-Neighbors.md"
   ]
 }
